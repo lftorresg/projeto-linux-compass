@@ -118,7 +118,7 @@ crontab -l
 ## Resultados  
 
 - O status do Nginx será registrado nos arquivos de log dentro do diretório `logs/`.  
-- A saída do terminal exibirá o status em cores (verde para ONLINE, vermelho para OFFLINE).  
+- A saída do terminal exibirá o status com as respectivas datas e horários.  
 
 Exemplo de log:  
 No `status_online.log`:
