@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Diretório e arquivos de log
-DIR_LOG="/home/kali/Compass/Projeto1/projeto-linux-compass/logs"
+DIR_SCRIPT=$(dirname "$(realpath "$0")")
+DIR_LOG="${DIR_SCRIPT}/logs"
 LOG_ONLINE="${DIR_LOG}/status_online.log"
 LOG_OFFLINE="${DIR_LOG}/status_offline.log"
 
